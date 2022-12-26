@@ -78,3 +78,77 @@ button {
   border: none;
   margin-top: 5px;
 }
+.slides {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+.contentHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+.colorChoice {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tileDesc {
+  text-align: center;
+  width: 130px;
+  padding-top: 5px;
+}
+
+.tile-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 0 20%;
+  background-color: #e5e7eb;
+  gap: 2%;
+}
+
+.userName {
+  align-self: flex-end;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f2;
+  margin: 10%;
+  border-radius: 5px;
+  color: white;
+}
+.cta {
+  padding: 20px;
+}
+
+.testDrive {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
