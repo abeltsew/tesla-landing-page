@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+  height: 400px;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.links {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.link {
+  color: white;
+}
+
+.headerPicture {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.image-1 {
+  width: 350px;
+  height: 150px;
+}
