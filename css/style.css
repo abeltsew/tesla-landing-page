@@ -156,6 +156,7 @@ button {
 .footer {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #3882f2;
   margin: 5%;
